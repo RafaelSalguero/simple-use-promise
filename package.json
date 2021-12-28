@@ -1,0 +1,31 @@
+{
+  "name": "simple-use-promise",
+  "version": "1.0.0",
+  "description": "The smallest, simplest usePromsie hook for React",
+  "main": "dist/commonjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "buildCommonJs": "tsc -m commonjs -outDir dist/commonjs -d false",
+    "buildES6": "tsc -d -declarationDir dist/types",
+    "build": "npm run buildES6 && npm run buildCommonJs",
+    "test": "jest",
+    "prepublishOnly": "npm run build",
+    "tsc": "tsc --noemit"
+  },
+  "keywords": [
+    "usePromise",
+    "promise",
+    "async",
+    "react"
+  ],
+  "author": "Rafael Salguero",
+  "license": "MIT",
+  "dependencies": {
+    "react": ">=16"
+  },
+  "devDependencies": {
+    "@types/react": ">=16",
+    "typescript": "^4.5.4"
+  }
+}
