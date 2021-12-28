@@ -1,10 +1,14 @@
 {
   "name": "simple-use-promise",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The smallest usePromsie hook for React",
   "main": "dist/commonjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RafaelSalguero/simple-use-promise"
+  },
   "scripts": {
     "buildCommonJs": "tsc -m commonjs -outDir dist/commonjs -d false",
     "buildES6": "tsc -d -declarationDir dist/types",
