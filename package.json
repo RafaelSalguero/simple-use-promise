@@ -1,7 +1,7 @@
 {
   "name": "simple-use-promise",
-  "version": "1.0.0",
-  "description": "The smallest, simplest usePromsie hook for React",
+  "version": "1.0.1",
+  "description": "The smallest usePromsie hook for React",
   "main": "dist/commonjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
