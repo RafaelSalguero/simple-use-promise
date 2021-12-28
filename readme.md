@@ -19,6 +19,14 @@ The smallest package to use promises in React.
     const customer = useMemoAsync(() => fetchCustomer(id), [id]);
 ```
 
+- Compatible with multiple major React versions:
+```json
+ //package.json
+ "dependencies": {
+    "react": ">=16"
+  },
+```
+
 ## No bloat oath
 > I do solemnly swear to never bloat this package
 >
